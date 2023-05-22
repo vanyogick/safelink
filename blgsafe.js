@@ -1,6 +1,6 @@
 
         window.onload = function() {
-            var hasCookie = document.cookie.indexOf("asw") !== -1;
+            var hasCookie = document.cookie.indexOf("backupxxx") !== -1;
             if (hasCookie) { 
               startTimer();
             } else {
@@ -30,6 +30,6 @@
             var element = document.getElementById("telo").style.display = "block";
         }
         function handleClick() {
-            document.cookie = "asw=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+            document.cookie = "backupxxx=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
             window.open("https://www.example.com", "_blank");
         }
