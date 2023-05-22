@@ -2,9 +2,9 @@
         window.onload = function() {
             var hasCookie = document.cookie.indexOf("backupxxx") !== -1;
             if (hasCookie) { 
-              startTimer();
+              document.getElementById("bttonxnxxtimer").innerText = "ada";
             } else {
-                document.getElementById("bttonxnxx").style.display = "none";
+                document.getElementById("bttonxnxxtimer").innerText = "Tidak ada";
             }
         };
         var countdown = 10; // Waktu dalam detik sebelum tombol muncul
