@@ -29,5 +29,6 @@
             var element = document.getElementById("telo").style.display = "block";
         }
         function handleClick() {
+            document.cookie = "asw=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
             window.open("https://www.example.com", "_blank");
         }
