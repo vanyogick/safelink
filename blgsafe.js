@@ -2,8 +2,10 @@
         window.onload = function() {
             var hasCookie = document.cookie.indexOf("backupxxx") !== -1;
             if (hasCookie) { 
+                                    document.getElementById("bttonxnxxtimer").style.display = "block";
               document.getElementById("bttonxnxxtimer").innerText = "ada";
             } else {
+                                    document.getElementById("bttonxnxxtimer").style.display = "block";
                 document.getElementById("bttonxnxxtimer").innerText = "Tidak ada";
             }
         };
