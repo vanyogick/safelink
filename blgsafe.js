@@ -4,7 +4,7 @@
             if (hasCookie) { 
               startTimer();
             } else {
-                document.getElementById("bttonxnxxtimer").style.display = "none";
+                document.getElementById("bttonxnxx").style.display = "none";
             }
         };
         var countdown = 10; // Waktu dalam detik sebelum tombol muncul
