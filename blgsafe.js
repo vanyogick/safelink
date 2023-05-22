@@ -22,6 +22,7 @@
                 document.getElementById("bttonxnxxtimer").style.display = "none";
                 document.getElementById("button-container").style.display = "block";
             } else {
+                document.getElementById("bttonxnxxtimer").style.display = "block";
                 document.getElementById("bttonxnxxtimer").innerText = "Tunggu " + countdown + " detik...";
             }
         }
